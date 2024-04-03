@@ -1,71 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta onchange="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Web</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-<body>
-  <header>
-    <div class="navbar">
-      <div class="logo"><a href="#">Ahmad <span>Web</span></a>
-      </div
-      <ul class="links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="toggle_btn">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </div>
-  </header>
-  <main>
-        <section id="home" class="home">
-            <h1>Hi There!</h1>
-            <p>I,m Ahmad</p>
-            <span>Newbie Web Developer</span><br>
-            <br>
-            <br>
-            <a href="#about" class="action_btn">Get Started</a>
-        </section>
-      <div class="background">
-        <section id="about" class="about">
-          <img src="bersama.jpg">
-            <h2>About</h2>
-            <p>Hello, My name is Ahmad Nurul Hidayat. I,m student in SMK N 2 Yogyakarta, Special Region of Yogyakarta. I'm currently studying Web Developer. I was born on March 20, 2007 in Bantul, Special Region of Yogyakarta.</p>
-        </section>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AhmadWeb44</title>
+    <link rel="icon" href="img/logo.jpg">
 
-        <section id="contact" class="contact">
-            <h2>Contact Me</h2>
-            <p>Contact untuk menghubungi saya sebagai berikut</p>
-        </section>
-        <div class="address">
-          <h2>Address</h2>
-          <p>Monggang, Pendowoharjo, Sewon, Bantul, Yogyakarta</p>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Ahmad<span>Web44</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Hello World I'm <span>Ahmad</span></h1>
+        <p>
+          Lorem Ipsum Dolor Sit Amet
+        </p>
+        <a href="#about" class="cta">Get Started</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About section start -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/saya.jpg" alt="about us" />
         </div>
-        <div class="Phone-number">
-          <h2>Contact Number</h2>
-          <p>089632323320</p>
-        </div>
-        <div class="email">
-          <h2>Email Address</h2>
-          <p>ahmadmaadz9@gmail.com</p>
+        <div class="content">
+          <p>Hello my name is Ahmad Nurul Hidayat. I'm student in SMK N 2 Yogyakarta. I'm currently studying Web Developer. I was born on March 20, 2007 in Bantul, Special Region of Yogyakarta
+          </p>
+          <span>—
+"Tidak ada kesempurnaan tanpa keberanian untuk belajar dari kegagalan" —</span>
         </div>
       </div>
-    </main>
-</body>
-  <div class="footer">
-    <p>Sosial Media Saya</p>
-    <a href="https://www.instagram.com/marginleft_?igsh=NGhuc3cwOHUxaGhj">Instagram</a>
-    <a href="https://www.facebook.com/profile.php?id=100089114965504">Facebook</a>
-    <a href="https://www.youtube.com/@hiahiahiahiahia">Youtube</a>
-    <br>
-    <hr>
-  </div>
-  <div class="copy">
-    <p>Copyright © | Ahmad Nurul Hidayat 2024</p>
-  </div>
-</html>
+    </section>
+    <!-- About section end -->
+  
+
+    <!-- Contact section start -->
+    <section id="contact" class="contact">
+      <h2>Our <span>Contact</span></h2>
+      <p>
+        if you want to contact us or want to know the location and provide
+        input.
+      </p>
+
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.0548862996587!2d110.34285731432313!3d-7.856995194341859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e71e9b4cc83a3ab%3A0x201324c7c62b3e9!2s-7.8570146%2C%20110.3440461!5e0!3m2!1sen!2sid!4v1647885916502!5m2!1sen!"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="nomor" />
+          </div>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/marginleft_?igsh=MTVqZDBwemx5MWVqbw=="><i data-feather="instagram"></i></a>
+        <a href="https://www.youtube.com/@UpinSaleh"><i data-feather="youtube"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100089114965504"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Ahmadweb44</a>. | &copy; 2024</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>)
